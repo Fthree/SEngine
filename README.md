@@ -4,6 +4,8 @@
 
 - This is meant to be a starting point for your game!
 
+- Under the MIT License.
+
 # Current state
 
 - This engine is not complete! Not by a far stretch. 
@@ -17,6 +19,8 @@
 # Whats to offer?
 
 - Fully working Box2D implementation, ready-to-go.
+
+- 2D OpenGL wrapper. 
 
 - Kept up-to-date as best as I (or contributors) can!
 
