@@ -1,0 +1,233 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Game">
+      <UniqueIdentifier>{899e6883-91a4-41bb-b215-0ea2d692bed2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Input">
+      <UniqueIdentifier>{5504587a-8918-4856-9406-31f55743e743}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Physics">
+      <UniqueIdentifier>{089fc4f7-a5cf-4ef5-a189-a6a1a2ce7eaf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics">
+      <UniqueIdentifier>{a99865bc-c5d6-47a9-9679-7713042f9d9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Loading">
+      <UniqueIdentifier>{3bbe9c66-30b2-4cf6-a043-4972c0825db3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameStates">
+      <UniqueIdentifier>{b10d8bb0-c256-4dfa-989a-0c8aef800aba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Event">
+      <UniqueIdentifier>{47223398-1c56-40cb-93d7-9775e313c577}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Loading\Resources">
+      <UniqueIdentifier>{7831bdc9-f981-47e8-93c7-fb0249b24856}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math">
+      <UniqueIdentifier>{33961d71-4fc8-4f9f-8dbe-6c406a1cbbf4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="World">
+      <UniqueIdentifier>{28a9a612-220e-4902-a921-b501e7841ce0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utilities">
+      <UniqueIdentifier>{d58144c2-62ad-4262-861e-560e96853c54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data">
+      <UniqueIdentifier>{bb33c5a6-d8e0-420c-976c-3c4f32b8fff5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\Shaders">
+      <UniqueIdentifier>{d96626f1-7c8a-4c38-94b1-06263d26d142}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\Resources">
+      <UniqueIdentifier>{126924b0-5f4c-4eb6-be0b-2e58e22a24b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\Texture">
+      <UniqueIdentifier>{b2f2569f-21cd-46cc-b855-f716d16f831a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Golf%3f">
+      <UniqueIdentifier>{18e4ed48-d68d-45ad-ac44-a80dd62c925f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EntityLookup">
+      <UniqueIdentifier>{3f555e84-0df7-47cc-ad73-1ea36a05be0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Loading\XML">
+      <UniqueIdentifier>{e22459a6-0239-465b-b3c4-10af759e8dca}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="stateHandlerGen.cpp">
+      <Filter>GameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxml2.cpp">
+      <Filter>Loading\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="DataLoader.cpp">
+      <Filter>Loading\XML</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="world.cpp">
+      <Filter>World</Filter>
+    </ClCompile>
+    <ClCompile Include="SPhysics.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="GameHandler.cpp">
+      <Filter>World</Filter>
+    </ClCompile>
+    <ClCompile Include="GFX.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceManager.cpp">
+      <Filter>Graphics\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Graphics\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="GSPlay.cpp">
+      <Filter>GameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="Rope.cpp">
+      <Filter>Golf%3f</Filter>
+    </ClCompile>
+    <ClCompile Include="BodyLookup.cpp">
+      <Filter>EntityLookup</Filter>
+    </ClCompile>
+    <ClCompile Include="JointLookup.cpp">
+      <Filter>EntityLookup</Filter>
+    </ClCompile>
+    <ClCompile Include="AssetLoader.cpp">
+      <Filter>Loading</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Game.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="stateHandlerGen.h">
+      <Filter>GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="StateGen.h">
+      <Filter>GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="GameData.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="GameTick.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Event.h">
+      <Filter>Event</Filter>
+    </ClInclude>
+    <ClInclude Include="GFXPkg.h">
+      <Filter>Data</Filter>
+    </ClInclude>
+    <ClInclude Include="tinyxml2.h">
+      <Filter>Loading\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="DataLoader.h">
+      <Filter>Loading\XML</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="world.h">
+      <Filter>World</Filter>
+    </ClInclude>
+    <ClInclude Include="Enums.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsUtils.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="SPhysics.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="GameHandler.h">
+      <Filter>World</Filter>
+    </ClInclude>
+    <ClInclude Include="GameInput.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="defs.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="EventStaticQueue.h">
+      <Filter>Event</Filter>
+    </ClInclude>
+    <ClInclude Include="EventQueue.h">
+      <Filter>Event</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimPackage.h">
+      <Filter>Data</Filter>
+    </ClInclude>
+    <ClInclude Include="GFX.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceManager.h">
+      <Filter>Graphics\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Graphics\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="GSPlay.h">
+      <Filter>GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="Rope.h">
+      <Filter>Golf%3f</Filter>
+    </ClInclude>
+    <ClInclude Include="BodyLookup.h">
+      <Filter>EntityLookup</Filter>
+    </ClInclude>
+    <ClInclude Include="JointLookup.h">
+      <Filter>EntityLookup</Filter>
+    </ClInclude>
+    <ClInclude Include="AssetLoader.h">
+      <Filter>Loading</Filter>
+    </ClInclude>
+    <ClInclude Include="toml.h">
+      <Filter>Loading\Resources</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="shader.fragment">
+      <Filter>Graphics\Shaders</Filter>
+    </None>
+    <None Include="shader.vertex">
+      <Filter>Graphics\Shaders</Filter>
+    </None>
+    <None Include="ShaderDebug.vertex">
+      <Filter>Graphics\Shaders</Filter>
+    </None>
+    <None Include="ShaderDebug.fragment">
+      <Filter>Graphics\Shaders</Filter>
+    </None>
+  </ItemGroup>
+</Project>
