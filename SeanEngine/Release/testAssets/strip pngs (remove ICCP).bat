@@ -1,1 +1,0 @@
-FOR /R %%a IN (*.png) DO mogrify -strip "%%~a"
