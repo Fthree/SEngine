@@ -10,9 +10,9 @@
 
 - This engine is not complete! Not by a far stretch. 
 
-- There are some serious refactorings to do!
+- There is some serious refactoring to do!
 
-- Documentation has not been kept up to date and has mostly been edited away. This is my next focus.
+- Documentation has not been kept up to date and has mostly been edited away.
 
 - The engine works and there is a small example built into the engine. This utilizes a lot of the primary functionality of the engine.
 
