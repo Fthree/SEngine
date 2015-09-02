@@ -44,3 +44,7 @@
 
 
 #THANKS!
+
+#Disclaimer
+
+I am not an expert, my code shows this. I'll try to improve wherever I can, but please be aware.
