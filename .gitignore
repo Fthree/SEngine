@@ -7,8 +7,8 @@
 *.bsc
 *.suo
 *.v12.suo
-SeanEngine/Release/
-Debug/
+SeanEngine/Release*
+SeanEngine/Debug*
 
 # Compiled Object files
 *.slo
