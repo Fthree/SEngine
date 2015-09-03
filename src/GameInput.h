@@ -2,7 +2,7 @@
 #define __GAMEINPUT__
 
 #include <vector>
-#include <SDL2\SDL.h>
+#include <SDL2/SDL.h>
 
 class gameInput
 {	

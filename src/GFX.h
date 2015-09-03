@@ -4,23 +4,28 @@
 //Types
 #include "GameData.h"
 #include "Input.h"
-#include <Box2D\Box2D.h>
+#include <Box2D/Box2D.h>
 
 //GLM
-#include "glm\glm.hpp"
-#include "glm\gtc\matrix_transform.hpp"
-#include "glm\gtc\type_ptr.hpp"
+#include "glm/glm.hpp"
+#include "glm/gtc/matrix_transform.hpp"
+#include "glm/gtc/type_ptr.hpp"
 
 //Internal
 #include <vector>
 
 //Graphical
 #include <SOIL.h>
-#include <SDL2\SDL.h>
+#include <SDL2/SDL.h>
 #include "Shader.h"
 #include "Texture.h"
-#include <SDL2\SDL_opengl.h>
-#include <gl\glu.h>
+#include <SDL2/SDL_opengl.h>
+#ifdef OSX
+#    include <OpenGL/glu.h>
+#else
+#    include <gl/glu.h>
+#endif
+
 #include "ResourceManager.h"
 
 class graphics

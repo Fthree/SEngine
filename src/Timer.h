@@ -1,7 +1,7 @@
 #ifndef __TIMER__
 #define __TIMER__
 
-#include <SDL2\SDL.h>
+#include <SDL2/SDL.h>
 
 #include <sstream>
 #include <string>

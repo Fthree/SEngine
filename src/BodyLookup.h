@@ -1,8 +1,9 @@
 #ifndef __LOOKUP__
 #define __LOOKUP__
 
-#include <Box2D\Box2D.h>
+#include <Box2D/Box2D.h>
 #include <vector>
+#include <string>
 
 struct bodyInfo
 {
