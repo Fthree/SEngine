@@ -7,6 +7,14 @@ set(EXENAME ${CMAKE_PROJECT_NAME})
 # Name of the directory
 set(DIRNAME "SeanEngine")
 
+if (WIN32)
+    add_definitions(-DWINDOWS)
+elseif(${CMAKE_SYSTEM_NAME} MATCHES "Linux") 
+    add_definitions(-DLINUX)
+# APPLE variable does not mean OS X
+elseif(${CMAKE_SYSTEM_NAME} MATCHES "Darwin") 
+    add_definitions(-DOSX)
+endif()
 
 # Avoid source tree pollution
 if (CMAKE_SOURCE_DIR STREQUAL CMAKE_BINARY_DIR)
@@ -53,7 +61,17 @@ set(SOURCES ${SOURCE_FILES} ${HEADER_FILES})
 # Executable
 add_executable(${EXENAME} ${SOURCES})
 target_link_libraries(${EXENAME} ${LIBS})
-target_link_libraries(${EXENAME} glew32s.lib)
+
+# Handle special glew library name on Windows
+if (WIN32)
+   target_link_libraries(${EXENAME} glew32s.lib)
+else()
+    target_link_libraries(${EXENAME} glew)
+endif()
+
+# make any compiler work in C++11 mode
+set_property(TARGET ${PROJECT_NAME} PROPERTY CXX_STANDARD 11)
+set_property(TARGET ${PROJECT_NAME} PROPERTY CXX_STANDARD_REQUIRED ON)
 
 #File management
 file(COPY testAssets DESTINATION ${CMAKE_BINARY_DIR})

@@ -1,9 +1,9 @@
 #ifndef __PHYSICSDATA__
 #define __PHYSICSDATA__
 
-#include <Box2D\Box2D.h>
+#include <Box2D/Box2D.h>
 #include <vector>
-#include "glm\glm.hpp"
+#include "glm/glm.hpp"
 #include "BodyLookup.h"
 #include "JointLookup.h"
 

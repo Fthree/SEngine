@@ -404,7 +404,7 @@ inline void Value::write(std::ostream* os, const std::string& keyPrefix) const
     case TIME_TYPE: {
         time_t tt = std::chrono::system_clock::to_time_t(*time_);
         std::tm t;
-        gmtime_s(&t, &tt);
+        gmtime(&tt);
         char buf[256];
         printf(buf, "%04d-%02d-%02dT%02d:%02d:%02dZ", t.tm_year + 1900, t.tm_mon + 1, t.tm_mday, t.tm_hour, t.tm_min, t.tm_sec);
         (*os) << buf;
@@ -810,7 +810,7 @@ inline bool Parser::parseTime(const std::string& s, Value* v)
     // TODO(mayah): Follow RFC?
 
     int YYYY, MM, DD, hh, mm, ss;
-    if (scanf_s(s.c_str(), "%d-%d-%dT%d:%d:%d", &YYYY, &MM, &DD, &hh, &mm, &ss) != 6) {
+    if (scanf(s.c_str(), "%d-%d-%dT%d:%d:%d", &YYYY, &MM, &DD, &hh, &mm, &ss) != 6) {
         return false;
     }
 

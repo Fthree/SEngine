@@ -2,6 +2,7 @@
 #define __EVENTSYS__
 
 #include <vector>
+#include <iostream>
 
 template<class T>
 class gameEvent {

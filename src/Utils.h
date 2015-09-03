@@ -160,12 +160,13 @@ namespace utils
 	template<class K>
 	static bool isInRange(K value, K min, K max)
 	{
-		if ((current._X < (goal._X - buffer._X)) || (current._X >(goal._X + buffer._X)))
-		{
-			return true;
-		}
+		//if ((current._X < (goal._X - buffer._X)) || (current._X >(goal._X + buffer._X)))
+		//{
+		//	return true;
+		//}
 
-		return false;
+		//return false;
+        return value > min || value < max;
 	}
 
 	static double norm(double value, double min, double max)
@@ -183,12 +184,19 @@ namespace utils
 		return lerp(norm(value, sourceMin, sourceMax), destMin, destMax);
 	}
 
+#ifdef WINDOWS
 	static double inline __declspec (naked) __fastcall SeanSqrt(double n)
 	{
 		_asm fld qword ptr [esp + 4]
 		_asm fsqrt
 		_asm ret 8
 	}
+#else
+	static double inline SeanSqrt(double n)
+	{
+        return sqrt(n);
+	}
+#endif
 
 	static double radsToDeg(double input)
 	{

@@ -4,11 +4,11 @@
 #include <string>
 #include <fstream>
 #include <iostream>
-#include "glm\glm.hpp"
-#include "glm\gtc\type_ptr.hpp"
+#include "glm/glm.hpp"
+#include "glm/gtc/type_ptr.hpp"
 
 #define GLEW_STATIC
-#include <GL\glew.h>
+#include <GL/glew.h>
 
 class Shader
 {
