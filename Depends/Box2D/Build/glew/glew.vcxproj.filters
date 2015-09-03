@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Game projects\SeanEngine\Dependant\Box2D-master\Box2D\glew\glew.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Game projects\SeanEngine\Dependant\Box2D-master\Box2D\glew\glew.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Game projects\SeanEngine\Dependant\Box2D-master\Box2D\glew\glxew.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Game projects\SeanEngine\Dependant\Box2D-master\Box2D\glew\wglew.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Game projects\SeanEngine\Dependant\Box2D-master\Box2D\glew\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{868C3D19-9B8E-4317-A43D-A5A53DFB532A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{E27BAA9B-81E2-4865-9CB3-D187914C1D3D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

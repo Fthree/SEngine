@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Game projects\SeanEngine\Dependant\Box2D-master\Box2D\HelloWorld\HelloWorld.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Game projects\SeanEngine\Dependant\Box2D-master\Box2D\HelloWorld\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{868C3D19-9B8E-4317-A43D-A5A53DFB532A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

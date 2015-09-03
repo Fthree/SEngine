@@ -1,0 +1,16 @@
+﻿Build started 07-Aug-15 7:57:54 AM.
+     1>Project "C:\Game projects\SeanEngine\Dependant\Box2D-master\Box2D\Build\glew\glew.vcxproj" on node 3 (Build target(s)).
+     1>CustomBuild:
+         Building Custom Rule C:/Game projects/SeanEngine/Dependant/Box2D-master/Box2D/glew/CMakeLists.txt
+         CMake does not need to re-run because C:\Game projects\SeanEngine\Dependant\Box2D-master\Box2D\Build\glew\CMakeFiles\generate.stamp is up-to-date.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D GLEW_STATIC /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"glew.dir\Debug\\" /Fd"glew.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt "C:\Game projects\SeanEngine\Dependant\Box2D-master\Box2D\glew\glew.c"
+         glew.c
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"C:\Game projects\SeanEngine\Dependant\Box2D-master\Box2D\Build\glew\Debug\glew.lib" /NOLOGO glew.dir\Debug\glew.obj
+         glew.vcxproj -> C:\Game projects\SeanEngine\Dependant\Box2D-master\Box2D\Build\glew\Debug\glew.lib
+     1>Done Building Project "C:\Game projects\SeanEngine\Dependant\Box2D-master\Box2D\Build\glew\glew.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.84

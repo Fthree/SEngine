@@ -1,0 +1,13 @@
+[textures]
+seg = "assets/Segments/green joint.png"
+box = "assets/box.jpg"
+
+[bodies]
+	[ground]
+	size = [5.0, 5.0]
+	position = [0.0, 0.0]
+
+	[segment]
+	size = [0.2, 0.5]
+	position = [0.0, -10.0]
+

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Game projects\SeanEngine\Dependant\Box2D-master\Box2D\build\CMakeFiles\7e563e9add7247b1e02e9409c979337b\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{0CD88DA8-52D8-4458-B16D-92AE321FF053}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,49 @@
+﻿Build started 07-Aug-15 7:57:54 AM.
+     1>Project "C:\Game projects\SeanEngine\Dependant\Box2D-master\Box2D\Build\glfw\glfw.vcxproj" on node 4 (Build target(s)).
+     1>CustomBuild:
+         Building Custom Rule C:/Game projects/SeanEngine/Dependant/Box2D-master/Box2D/glfw/CMakeLists.txt
+         CMake does not need to re-run because C:\Game projects\SeanEngine\Dependant\Box2D-master\Box2D\Build\glfw\CMakeFiles\generate.stamp is up-to-date.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D GLFW_STATIC /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"glfw.dir\Debug\\" /Fd"glfw.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt "C:\Game projects\SeanEngine\Dependant\Box2D-master\Box2D\glfw\clipboard.c" "C:\Game projects\SeanEngine\Dependant\Box2D-master\Box2D\glfw\context.c" "C:\Game projects\SeanEngine\Dependant\Box2D-master\Box2D\glfw\gamma.c" "C:\Game projects\SeanEngine\Dependant\Box2D-master\Box2D\glfw\init.c" "C:\Game projects\SeanEngine\Dependant\Box2D-master\Box2D\glfw\input.c" "C:\Game projects\SeanEngine\Dependant\Box2D-master\Box2D\glfw\joystick.c" "C:\Game projects\SeanEngine\Dependant\Box2D-master\Box2D\glfw\monitor.c" "C:\Game projects\SeanEngine\Dependant\Box2D-master\Box2D\glfw\time.c" "C:\Game projects\SeanEngine\Dependant\Box2D-master\Box2D\glfw\window.c" "C:\Game projects\SeanEngine\Dependant\Box2D-master\Box2D\glfw\wgl_context.c" "C:\Game projects\SeanEngine\Dependant\Box2D-master\Box2D\glfw\win32_clipboard.c" "C:\Game projects\SeanEngine\Dependant\Box2D-master\Box2D\glfw\win32_gamma.c" "C:\Game projects\SeanEngine\Dependant\Box2D-master\Box2D\glfw\win32_init.c" "C:\Game projects\SeanEngine\Dependant\Box2D-master\Box2D\glfw\win32_joystick.c" "C:\Game projects\SeanEngine\Dependant\Box2D-master\Box2D\glfw\win32_monitor.c" "C:\Game projects\SeanEngine\Dependant\Box2D-master\Box2D\glfw\win32_time.c" "C:\Game projects\SeanEngine\Dependant\Box2D-master\Box2D\glfw\win32_window.c"
+         clipboard.c
+         context.c
+         gamma.c
+         init.c
+         input.c
+         joystick.c
+         monitor.c
+         time.c
+         window.c
+         wgl_context.c
+         win32_clipboard.c
+         win32_gamma.c
+         win32_init.c
+         win32_joystick.c
+         win32_monitor.c
+         win32_time.c
+         win32_window.c
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"C:\Game projects\SeanEngine\Dependant\Box2D-master\Box2D\Build\glfw\Debug\glfw.lib" /NOLOGO glfw.dir\Debug\clipboard.obj
+         glfw.dir\Debug\context.obj
+         glfw.dir\Debug\gamma.obj
+         glfw.dir\Debug\init.obj
+         glfw.dir\Debug\input.obj
+         glfw.dir\Debug\joystick.obj
+         glfw.dir\Debug\monitor.obj
+         glfw.dir\Debug\time.obj
+         glfw.dir\Debug\window.obj
+         glfw.dir\Debug\wgl_context.obj
+         glfw.dir\Debug\win32_clipboard.obj
+         glfw.dir\Debug\win32_gamma.obj
+         glfw.dir\Debug\win32_init.obj
+         glfw.dir\Debug\win32_joystick.obj
+         glfw.dir\Debug\win32_monitor.obj
+         glfw.dir\Debug\win32_time.obj
+         glfw.dir\Debug\win32_window.obj
+         glfw.vcxproj -> C:\Game projects\SeanEngine\Dependant\Box2D-master\Box2D\Build\glfw\Debug\glfw.lib
+     1>Done Building Project "C:\Game projects\SeanEngine\Dependant\Box2D-master\Box2D\Build\glfw\glfw.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:06.69

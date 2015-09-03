@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Game projects\SeanEngine\Dependant\Box2D-master\Box2D\glfw\clipboard.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Game projects\SeanEngine\Dependant\Box2D-master\Box2D\glfw\context.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Game projects\SeanEngine\Dependant\Box2D-master\Box2D\glfw\gamma.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Game projects\SeanEngine\Dependant\Box2D-master\Box2D\glfw\init.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Game projects\SeanEngine\Dependant\Box2D-master\Box2D\glfw\input.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Game projects\SeanEngine\Dependant\Box2D-master\Box2D\glfw\joystick.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Game projects\SeanEngine\Dependant\Box2D-master\Box2D\glfw\monitor.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Game projects\SeanEngine\Dependant\Box2D-master\Box2D\glfw\time.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Game projects\SeanEngine\Dependant\Box2D-master\Box2D\glfw\window.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Game projects\SeanEngine\Dependant\Box2D-master\Box2D\glfw\wgl_context.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Game projects\SeanEngine\Dependant\Box2D-master\Box2D\glfw\win32_clipboard.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Game projects\SeanEngine\Dependant\Box2D-master\Box2D\glfw\win32_gamma.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Game projects\SeanEngine\Dependant\Box2D-master\Box2D\glfw\win32_init.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Game projects\SeanEngine\Dependant\Box2D-master\Box2D\glfw\win32_joystick.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Game projects\SeanEngine\Dependant\Box2D-master\Box2D\glfw\win32_monitor.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Game projects\SeanEngine\Dependant\Box2D-master\Box2D\glfw\win32_time.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Game projects\SeanEngine\Dependant\Box2D-master\Box2D\glfw\win32_window.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Game projects\SeanEngine\Dependant\Box2D-master\Box2D\glfw\config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Game projects\SeanEngine\Dependant\Box2D-master\Box2D\glfw\internal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Game projects\SeanEngine\Dependant\Box2D-master\Box2D\glfw\wglext.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Game projects\SeanEngine\Dependant\Box2D-master\Box2D\glfw\wgl_platform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Game projects\SeanEngine\Dependant\Box2D-master\Box2D\glfw\win32_platform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Game projects\SeanEngine\Dependant\Box2D-master\Box2D\glfw\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{868C3D19-9B8E-4317-A43D-A5A53DFB532A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{E27BAA9B-81E2-4865-9CB3-D187914C1D3D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

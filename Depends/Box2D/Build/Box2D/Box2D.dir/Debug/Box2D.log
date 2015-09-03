@@ -1,0 +1,111 @@
+﻿Build started 07-Aug-15 7:57:53 AM.
+     1>Project "C:\Game projects\SeanEngine\Dependant\Box2D-master\Box2D\Build\Box2D\Box2D.vcxproj" on node 2 (Build target(s)).
+     1>CustomBuild:
+         Building Custom Rule C:/Game projects/SeanEngine/Dependant/Box2D-master/Box2D/Box2D/CMakeLists.txt
+         CMake does not need to re-run because C:\Game projects\SeanEngine\Dependant\Box2D-master\Box2D\Build\Box2D\CMakeFiles\generate.stamp is up-to-date.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Game projects\SeanEngine\Dependant\Box2D-master\Box2D\Box2D\.." /Zi /nologo /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"Box2D.dir\Debug\\" /Fd"Box2D.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "C:\Game projects\SeanEngine\Dependant\Box2D-master\Box2D\Box2D\Dynamics\Joints\b2DistanceJoint.cpp" "C:\Game projects\SeanEngine\Dependant\Box2D-master\Box2D\Box2D\Dynamics\Joints\b2FrictionJoint.cpp" "C:\Game projects\SeanEngine\Dependant\Box2D-master\Box2D\Box2D\Dynamics\Joints\b2GearJoint.cpp" "C:\Game projects\SeanEngine\Dependant\Box2D-master\Box2D\Box2D\Dynamics\Joints\b2Joint.cpp" "C:\Game projects\SeanEngine\Dependant\Box2D-master\Box2D\Box2D\Dynamics\Joints\b2MotorJoint.cpp" "C:\Game projects\SeanEngine\Dependant\Box2D-master\Box2D\Box2D\Dynamics\Joints\b2MouseJoint.cpp" "C:\Game projects\SeanEngine\Dependant\Box2D-master\Box2D\Box2D\Dynamics\Joints\b2PrismaticJoint.cpp" "C:\Game projects\SeanEngine\Dependant\Box2D-master\Box2D\Box2D\Dynamics\Joints\b2PulleyJoint.cpp" "C:\Game projects\SeanEngine\Dependant\Box2D-master\Box2D\Box2D\Dynamics\Joints\b2RevoluteJoint.cpp" "C:\Game projects\SeanEngine\Dependant\Box2D-master\Box2D\Box2D\Dynamics\Joints\b2RopeJoint.cpp" "C:\Game projects\SeanEngine\Dependant\Box2D-master\Box2D\Box2D\Dynamics\Joints\b2WeldJoint.cpp" "C:\Game projects\SeanEngine\Dependant\Box2D-master\Box2D\Box2D\Dynamics\Joints\b2WheelJoint.cpp" "C:\Game projects\SeanEngine\Dependant\Box2D-master\Box2D\Box2D\Dynamics\Contacts\b2CircleContact.cpp" "C:\Game projects\SeanEngine\Dependant\Box2D-master\Box2D\Box2D\Dynamics\Contacts\b2Contact.cpp" "C:\Game projects\SeanEngine\Dependant\Box2D-master\Box2D\Box2D\Dynamics\Contacts\b2ContactSolver.cpp" "C:\Game projects\SeanEngine\Dependant\Box2D-master\Box2D\Box2D\Dynamics\Contacts\b2PolygonAndCircleContact.cpp" "C:\Game projects\SeanEngine\Dependant\Box2D-master\Box2D\Box2D\Dynamics\Contacts\b2EdgeAndCircleContact.cpp" "C:\Game projects\SeanEngine\Dependant\Box2D-master\Box2D\Box2D\Dynamics\Contacts\b2EdgeAndPolygonContact.cpp" "C:\Game projects\SeanEngine\Dependant\Box2D-master\Box2D\Box2D\Dynamics\Contacts\b2ChainAndCircleContact.cpp" "C:\Game projects\SeanEngine\Dependant\Box2D-master\Box2D\Box2D\Dynamics\Contacts\b2ChainAndPolygonContact.cpp" "C:\Game projects\SeanEngine\Dependant\Box2D-master\Box2D\Box2D\Dynamics\Contacts\b2PolygonContact.cpp" "C:\Game projects\SeanEngine\Dependant\Box2D-master\Box2D\Box2D\Dynamics\b2Body.cpp" "C:\Game projects\SeanEngine\Dependant\Box2D-master\Box2D\Box2D\Dynamics\b2ContactManager.cpp" "C:\Game projects\SeanEngine\Dependant\Box2D-master\Box2D\Box2D\Dynamics\b2Fixture.cpp" "C:\Game projects\SeanEngine\Dependant\Box2D-master\Box2D\Box2D\Dynamics\b2Island.cpp" "C:\Game projects\SeanEngine\Dependant\Box2D-master\Box2D\Box2D\Dynamics\b2World.cpp" "C:\Game projects\SeanEngine\Dependant\Box2D-master\Box2D\Box2D\Dynamics\b2WorldCallbacks.cpp" "C:\Game projects\SeanEngine\Dependant\Box2D-master\Box2D\Box2D\Common\b2BlockAllocator.cpp" "C:\Game projects\SeanEngine\Dependant\Box2D-master\Box2D\Box2D\Common\b2Draw.cpp" "C:\Game projects\SeanEngine\Dependant\Box2D-master\Box2D\Box2D\Common\b2Math.cpp" "C:\Game projects\SeanEngine\Dependant\Box2D-master\Box2D\Box2D\Common\b2Settings.cpp" "C:\Game projects\SeanEngine\Dependant\Box2D-master\Box2D\Box2D\Common\b2StackAllocator.cpp" "C:\Game projects\SeanEngine\Dependant\Box2D-master\Box2D\Box2D\Common\b2Timer.cpp" "C:\Game projects\SeanEngine\Dependant\Box2D-master\Box2D\Box2D\Collision\Shapes\b2CircleShape.cpp" "C:\Game projects\SeanEngine\Dependant\Box2D-master\Box2D\Box2D\Collision\Shapes\b2EdgeShape.cpp" "C:\Game projects\SeanEngine\Dependant\Box2D-master\Box2D\Box2D\Collision\Shapes\b2ChainShape.cpp" "C:\Game projects\SeanEngine\Dependant\Box2D-master\Box2D\Box2D\Collision\Shapes\b2PolygonShape.cpp" "C:\Game projects\SeanEngine\Dependant\Box2D-master\Box2D\Box2D\Collision\b2BroadPhase.cpp" "C:\Game projects\SeanEngine\Dependant\Box2D-master\Box2D\Box2D\Collision\b2CollideCircle.cpp" "C:\Game projects\SeanEngine\Dependant\Box2D-master\Box2D\Box2D\Collision\b2CollideEdge.cpp" "C:\Game projects\SeanEngine\Dependant\Box2D-master\Box2D\Box2D\Collision\b2CollidePolygon.cpp" "C:\Game projects\SeanEngine\Dependant\Box2D-master\Box2D\Box2D\Collision\b2Collision.cpp" "C:\Game projects\SeanEngine\Dependant\Box2D-master\Box2D\Box2D\Collision\b2Distance.cpp" "C:\Game projects\SeanEngine\Dependant\Box2D-master\Box2D\Box2D\Collision\b2DynamicTree.cpp" "C:\Game projects\SeanEngine\Dependant\Box2D-master\Box2D\Box2D\Collision\b2TimeOfImpact.cpp" "C:\Game projects\SeanEngine\Dependant\Box2D-master\Box2D\Box2D\Rope\b2Rope.cpp"
+         b2DistanceJoint.cpp
+         b2FrictionJoint.cpp
+         b2GearJoint.cpp
+         b2Joint.cpp
+         b2MotorJoint.cpp
+         b2MouseJoint.cpp
+         b2PrismaticJoint.cpp
+         b2PulleyJoint.cpp
+         b2RevoluteJoint.cpp
+         b2RopeJoint.cpp
+         b2WeldJoint.cpp
+         b2WheelJoint.cpp
+         b2CircleContact.cpp
+         b2Contact.cpp
+         b2ContactSolver.cpp
+         b2PolygonAndCircleContact.cpp
+         b2EdgeAndCircleContact.cpp
+         b2EdgeAndPolygonContact.cpp
+         b2ChainAndCircleContact.cpp
+         b2ChainAndPolygonContact.cpp
+         Generating Code...
+         Compiling...
+         b2PolygonContact.cpp
+         b2Body.cpp
+         b2ContactManager.cpp
+         b2Fixture.cpp
+         b2Island.cpp
+         b2World.cpp
+         b2WorldCallbacks.cpp
+         b2BlockAllocator.cpp
+         b2Draw.cpp
+         b2Math.cpp
+         b2Settings.cpp
+         b2StackAllocator.cpp
+         b2Timer.cpp
+         b2CircleShape.cpp
+         b2EdgeShape.cpp
+         b2ChainShape.cpp
+         b2PolygonShape.cpp
+         b2BroadPhase.cpp
+         b2CollideCircle.cpp
+         b2CollideEdge.cpp
+         Generating Code...
+         Compiling...
+         b2CollidePolygon.cpp
+         b2Collision.cpp
+         b2Distance.cpp
+         b2DynamicTree.cpp
+         b2TimeOfImpact.cpp
+         b2Rope.cpp
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"C:\Game projects\SeanEngine\Dependant\Box2D-master\Box2D\Build\Box2D\Debug\Box2D.lib" /NOLOGO Box2D.dir\Debug\b2DistanceJoint.obj
+         Box2D.dir\Debug\b2FrictionJoint.obj
+         Box2D.dir\Debug\b2GearJoint.obj
+         Box2D.dir\Debug\b2Joint.obj
+         Box2D.dir\Debug\b2MotorJoint.obj
+         Box2D.dir\Debug\b2MouseJoint.obj
+         Box2D.dir\Debug\b2PrismaticJoint.obj
+         Box2D.dir\Debug\b2PulleyJoint.obj
+         Box2D.dir\Debug\b2RevoluteJoint.obj
+         Box2D.dir\Debug\b2RopeJoint.obj
+         Box2D.dir\Debug\b2WeldJoint.obj
+         Box2D.dir\Debug\b2WheelJoint.obj
+         Box2D.dir\Debug\b2CircleContact.obj
+         Box2D.dir\Debug\b2Contact.obj
+         Box2D.dir\Debug\b2ContactSolver.obj
+         Box2D.dir\Debug\b2PolygonAndCircleContact.obj
+         Box2D.dir\Debug\b2EdgeAndCircleContact.obj
+         Box2D.dir\Debug\b2EdgeAndPolygonContact.obj
+         Box2D.dir\Debug\b2ChainAndCircleContact.obj
+         Box2D.dir\Debug\b2ChainAndPolygonContact.obj
+         Box2D.dir\Debug\b2PolygonContact.obj
+         Box2D.dir\Debug\b2Body.obj
+         Box2D.dir\Debug\b2ContactManager.obj
+         Box2D.dir\Debug\b2Fixture.obj
+         Box2D.dir\Debug\b2Island.obj
+         Box2D.dir\Debug\b2World.obj
+         Box2D.dir\Debug\b2WorldCallbacks.obj
+         Box2D.dir\Debug\b2BlockAllocator.obj
+         Box2D.dir\Debug\b2Draw.obj
+         Box2D.dir\Debug\b2Math.obj
+         Box2D.dir\Debug\b2Settings.obj
+         Box2D.dir\Debug\b2StackAllocator.obj
+         Box2D.dir\Debug\b2Timer.obj
+         Box2D.dir\Debug\b2CircleShape.obj
+         Box2D.dir\Debug\b2EdgeShape.obj
+         Box2D.dir\Debug\b2ChainShape.obj
+         Box2D.dir\Debug\b2PolygonShape.obj
+         Box2D.dir\Debug\b2BroadPhase.obj
+         Box2D.dir\Debug\b2CollideCircle.obj
+         Box2D.dir\Debug\b2CollideEdge.obj
+         Box2D.dir\Debug\b2CollidePolygon.obj
+         Box2D.dir\Debug\b2Collision.obj
+         Box2D.dir\Debug\b2Distance.obj
+         Box2D.dir\Debug\b2DynamicTree.obj
+         Box2D.dir\Debug\b2TimeOfImpact.obj
+         Box2D.dir\Debug\b2Rope.obj
+         Box2D.vcxproj -> C:\Game projects\SeanEngine\Dependant\Box2D-master\Box2D\Build\Box2D\Debug\Box2D.lib
+     1>Done Building Project "C:\Game projects\SeanEngine\Dependant\Box2D-master\Box2D\Build\Box2D\Box2D.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:12.77
