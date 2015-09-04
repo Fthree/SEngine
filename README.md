@@ -97,7 +97,7 @@ Dependencies
 #THANKS!
 
 #Special thanks to
-  -Mateusz Belicki : https://github.com/mbelicki for fixing some of the Unix problems!
+- Mateusz Belicki : https://github.com/mbelicki for fixing some of the Unix problems!
 
 #Disclaimer
 
