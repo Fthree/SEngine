@@ -96,6 +96,9 @@ Dependencies
 
 #THANKS!
 
+#Special thanks to
+  -Mateusz Belicki : https://github.com/mbelicki for fixing some of the Unix problems!
+
 #Disclaimer
 
 I am not an expert, my code shows this. I'll try to improve wherever I can, but please be aware.
